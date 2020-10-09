@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
+  <link rel="stylesheet" href="assets/css/galeria.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/flaticon.css">
+  <link rel="stylesheet" href="assets/fonts/Flaticon.woff">
+  <link rel="stylesheet" href="assets/css/detalle.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class='navbar navbar-expand-md navbar-fixed-js'>
+      <div class='container flex-content'>
+        <button class='navbar-toggler p-2 border-0 hamburger hamburger--elastic d-none-lg' data-toggle='offcanvas'
+          type='button'>
+          <span class='hamburger-box'>
+            <span class='hamburger-inner'></span>
+          </span>
+        </button>
+        <div class='offcanvas-collapse fil' id='navbarNav'>
+
+          <ul class='navbar-nav'>
+            <div class="flex-content">
+              <li class='nav-item dropdown dowms'>
+
+
+                <a href='#' aria-expanded='false' aria-haspopup='true' class='nav-link dropdown-toggle nav-link-black '
+                  data-toggle='dropdown'>
+                  moneda
+                </a>
+                <div aria-labelledby='dropdownMenuButton' class='dropdown-menu'>
+                  <div class='content-drop'>
+                    <a class='dropdown-item' href='#'>
+                      <p> Categoria 1</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class='nav-item dropdown dowms'>
+                <a href='#' aria-expanded='false' aria-haspopup='true' class='nav-link dropdown-toggle nav-link-black '
+                  data-toggle='dropdown'>
+                  <i class="flaticon-translation"></i>
+
+                </a>
+                <div aria-labelledby='dropdownMenuButton' class='dropdown-menu'>
+                  <div class='content-drop'>
+                    <a class='dropdown-item' href='#'>
+                      <p> Categoria 1</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+            </div>
+            <div class="flex-content m-155">
+              <li class='nav-item mr-5'>
+                <a class='nav-link nav-link-black ' href='filtro.html'>Gallery</a>
+              </li>
+              <li class='nav-item'>
+                <a class='brand' href='#'>
+                  <img alt='' src='assets/img/logo-blue.png'>
+                </a>
+              </li>
+
+              <li class='nav-item ml-5'>
+                <a class='nav-link ' data-toggle="modal" data-target="#login">About me</a>
+              </li>
+            </div>
+            <div class="flex-content ">
+              <li class='nav-item active'>
+                <a class='nav-link active' data-toggle="modal" data-target="#registro">
+                  <i class="flaticon-shopping-bag"></i>
+
+                </a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' href='#tienda' data-toggle="modal" data-target="#login-modal"><i
+                    class="flaticon-user"></i>
+
+                </a>
+              </li>
+              <!--<li class='nav-item'>
+                                <a class='nav-link' data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"
+                                        aria-hidden="true"></i>
+                                </a>
+                            </li>-->
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="container pt-5 ">
+    <div class="main main-details__product">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="demo-test-gallery" class="demo-gallery" data-pswp-uid="1">
+            <div class="main-banner_item main-detalle_item">
+              <a href="http://imgfz.com/i/7Fw3pJi.jpeg" data-size="1600x1068" data-author=""
+                data-med="http://imgfz.com/i/7Fw3pJi.jpeg" data-med-size="1024x683">
+                <img src="http://imgfz.com/i/7Fw3pJi.jpeg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="iconos_detalle text-center">
+            <i class="flaticon-eye-variant-with-enlarged-pupil
+">Scale View</i>
+            <i class="flaticon-zoom-in-1
+">Zoom/Better
+              View</i>
+          </div>
+        </div>
+        <!---col-md-6---->
+        <div class="col-md-6">
+
+          <div class="slider_details--text">
+            <div class="">
+              <div class="main-top__item">
+                <div class="main-top__text">
+                  <div class="main-top__title">
+                    <p>Title </p>
+                    <span> by Aida</span>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 p-0 flex-center">
+                      <div class="main-top__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris
+                          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                          velit
+                          esse cillum dolore eu fugiat nulla pariatur.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 p-per">
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1"><strong>Format</strong></label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                      <div class="main-top__price">
+                        <p>$85,000 </p>
+                      </div>
+                      <div class="text-center main-top__btn ">
+                        <a class="btn-custom mr-4" href="compra.html">
+                          Comprar <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <p class="dimens-title">Dimensions</p>
+                  <div class="dimens">
+
+                    <!-- radio -->
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="o3" value="" checked>
+                        <span class="cr"><i class="cr-icon fa fa-check" aria-hidden="true"></i>
+                        </span>
+                        50 x 40
+
+                      </label>
+                    </div>
+
+                    <!-- radio -->
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="o3" value="">
+                        <span class="cr"><i class="cr-icon fa fa-check" aria-hidden="true"></i>
+                        </span>
+                        90 x 40
+                      </label>
+                    </div>
+
+                    <!-- radio -->
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="o3" value="">
+                        <span class="cr"><i class="cr-icon fa fa-check" aria-hidden="true"></i>
+                        </span>
+                        50 x 70
+                      </label>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="atention">
+      <div class="atention-item">
+        <p>Fast Shipping via DHL or FEDEX (Ground and
+          International)
+        </p>
+      </div>
+      <div class="atention-item">
+        <p>Each item includes an o!cial certificate of
+          authenticity, creation of date and a personal </p>
+      </div>
+      <div class="atention-item">
+        <p>There are no returns, for additional information send an email to sales@aidart.co
+          and we’ll get back to you in less than 4 hours</p>
+      </div>
+    </div>
+  </section>
+
+<section class="container">
+  <section>
+    <p class="main_title-general">Gallery</p>
+    <div id="galeria" class="galeria galeria--h container">
+        <div class="galeria-brick galeria-brick--h">
+           <a href="detalle.html">
+            <div class="galeria_name">
+                <p>Name</p>
+            </div>
+            <img src="http://imgfz.com/i/8nCzm5i.jpeg" class="galeria-img" alt="galeria aidaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+           </a>
+        </div>
+        <div class="galeria-brick galeria-brick--h">
+          <a href="detalle.html">
+            <div class="galeria_name">
+                <p>Lorem ipsum asmet</p>
+            </div>
+            <img src="http://imgfz.com/i/ywPrSJ8.jpeg" class="galeria-img" alt="galeria idaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+          </a>
+        </div>
+        <div class="galeria-brick galeria-brick--h">
+          <a href="detalle.html">
+            <div class="galeria_name">
+                <p>Name</p>
+            </div>
+            <img src="http://imgfz.com/i/sLGAmZN.jpeg" class="galeria-img" alt="galeria idaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+          </a>
+        </div>
+        <div class="galeria-brick galeria-brick--h">
+         <a href="detalle.html">
+            <div class="galeria_name">
+                <p>Name</p>
+            </div>
+            <img src="http://imgfz.com/i/LXNdayR.jpeg" class="galeria-img" alt="galeria idaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+         </a>
+        </div>
+        <div class="galeria-brick galeria-brick--h">
+         <a href="">
+            <div class="galeria_name">
+                <p>Name</p>
+            </div>
+            <img src="http://imgfz.com/i/vSkhKCQ.jpeg" class="galeria-img" alt="galeria idaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+         </a>
+        </div>
+        <div class="galeria-brick galeria-brick--h">
+            <div class="galeria_name">
+                <p>Name</p>
+            </div>
+            <img src="http://imgfz.com/i/7Fw3pJi.jpeg" class="galeria-img" alt="galeria idaart">
+            <div class="galeria_dimension">
+                <p>2 x 4
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+
+
+
+
+  <footer>
+    <div class="footer container mt-5">
+      <a class="mr-5" href="" data-toggle="modal" data-target="#terminos">Términos & Condiciones </a>
+      <p>All Rights Reserved @ 2020</p>
+    </div>
+  </footer>
+
+<!----------------------------------------NO COPIAR------------------------------------------------------------------------------>
+<!----------------------------------------NO COPIAR------------------------------------------------------------------------------>
+<!----------------------------------------NO COPIAR------------------------------------------------------------------------------>
+  <!-- Photoswipe 4.0 html code for javascript interface -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+ It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+      <!-- Container that holds slides. 
+    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+    Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <!--  Controls are self-explanatory. Order can be changed. -->
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <!--- <button class="pswp__button pswp__button--share" title="Share"></button>--->
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <div class="eye" data-toggle="modal" data-target="#banner_expande"> <i
+              class="flaticon-eye-variant-with-enlarged-pupil"></i>
+          </div>
+
+          <div>
+            <img class="firma" alt='' src='assets/img/logo.png'>
+          </div>
+
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!---------MODALES------------>
+  <!-- Modal TERMINOS Y CONDICIONES-->
+  <div class="modal fade" id="terminos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">TERMINOS Y CONDICIONES</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div> <!-- Modal TERMINOS Y CONDICIONES-->
+
+  <!-- abnner-->
+  <div class="modal fade" id="banner_expande" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          imagen
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal login -->
+  <div class="modal fade login_main" id="login-modal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 p-50">
+                <p class="m-0 title-login">Inicio de sesión</p>
+                <form action="">
+                  <div class="form-group">
+                    <!---  <label for="email">Correo electrónico</label>-->
+                    <input placeholder="Correo electrónico" type="email" autocomplete="off" class="form-control"
+                      id="email" aria-describedby="emailHelp">
+                    <i class="fa fa-envelope icon_form"></i>
+                  </div>
+                  <div class="form-group">
+                    <!--<label for="password">Contraseña</label>-->
+
+                    <input placeholder="Contraseña" type="password" class="form-control  " id="password">
+                    <i class="fa fa-lock icon_form"></i>
+                  </div>
+                  <div class="form-group  text-lg-right">
+                    <a href="" class="texto">¿Has olvidado tu contraseña?</a>
+                  </div>
+                  <div class=" form-group mt-4 text-center">
+                    <button class="btn btn-primary btn-custom "">Ingresar <i class=" fa fa-angle-right"
+                      aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class=" mb-5 text-center">
+                    <p class="inicia">ó inicia sesión con</p>
+                    <a class="btn-login  mr-2" href=""> <img class=img_social src="assets/img/facebook.png" alt="">
+                      Facebook</a>
+                    <a class="btn-login btn-login2" href=""> <img class="img_social" src="assets/img/google.png" alt="">
+                      Google</a>
+                  </div>
+                </form>
+              </div>
+              <div class=" col-md-6 gray flex-center">
+                <div class=" text-center registrar_facil">
+                  <a class="txt" href="" data-toggle="modal" data-target="#register-modal">¡Registrate facíl! <i class=" fa
+                                    fa-angle-right" aria-hidden="true"></i></a>
+                  <p>¿Aún no tienes cuenta?</p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal registroo -->
+  <div class="modal fade login_main" id="register-modal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-7 p-50">
+                <p class="m-0 title-login">Registro</p>
+                <form action="">
+                  <div class="form-group">
+                    <input placeholder="Nombre y apellido" type="email" autocomplete="off" class="form-control"
+                      id="email" aria-describedby="emailHelp">
+                    <i class="fa fa-user icon_form"></i>
+                  </div>
+
+                  <div class="form-group">
+                    <input placeholder="Correo electrónico" type="email" autocomplete="off" class="form-control"
+                      id="email" aria-describedby="emailHelp">
+                    <i class="fa fa-envelope icon_form"></i>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input placeholder="Cèdula" type="email" class="form-control">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <input placeholder="Télefono" type="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input placeholder="Dirección" type="password" class="form-control  ">
+
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <input placeholder="Contraseña" type="password" class="form-control  " id="password">
+                    <i class="fa fa-lock icon_form"></i>
+                  </div>
+                  <div class="form-group">
+                    <input placeholder="Confirmar contraseña" type="password" class="form-control  " id="password">
+                    <i class="fa fa-lock icon_form"></i>
+                  </div>
+
+                  <div class=" form-group mt-4 text-center">
+                    <button class="btn btn-primary btn-custom "">Registrarme<i class=" fa fa-angle-right"
+                      aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class=" mb-5 text-center">
+                    <p class="inicia">ó registrate facil</p>
+                    <a class="btn-login  mr-2" href=""> <img class=img_social src="assets/img/facebook.png" alt="">
+                      Facebook</a>
+                    <a class="btn-login btn-login2" href=""> <img class="img_social" src="assets/img/google.png" alt="">
+                      Google</a>
+                  </div>
+                </form>
+              </div>
+              <div class=" col-md-5 gray flex-center">
+                <div class=" text-center registrar_facil">
+                  <a class="txt" href="">¡Inicia sesión! <i class=" fa
+                                  fa-angle-right" aria-hidden="true"></i></a>
+                  <p>¿Ya tienes cuenta?</p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
+
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    (function () {
+
+      var initPhotoSwipeFromDOM = function (gallerySelector) {
+
+        var parseThumbnailElements = function (el) {
+          var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            el,
+            childElements,
+            thumbnailEl,
+            size,
+            item;
+
+          for (var i = 0; i < numNodes; i++) {
+            el = thumbElements[i];
+
+            // include only element nodes 
+            if (el.nodeType !== 1) {
+              continue;
+            }
+
+            childElements = el.children;
+
+            size = el.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+              src: el.getAttribute('href'),
+              w: parseInt(size[0], 10),
+              h: parseInt(size[1], 10),
+              author: el.getAttribute('data-author'),
+              title: el.getAttribute('data-title')
+            };
+
+            item.el = el; // save link to element for getThumbBoundsFn
+
+            if (childElements.length > 0) {
+              item.msrc = childElements[0].getAttribute('src'); // thumbnail url
+              if (childElements.length > 1) {
+                item.title = childElements[1]
+                  .innerHTML; // caption (contents of figure)
+              }
+            }
+
+
+            var mediumSrc = el.getAttribute('data-med');
+            if (mediumSrc) {
+              size = el.getAttribute('data-med-size').split('x');
+              // "medium-sized" image
+              item.m = {
+                src: mediumSrc,
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+              };
+            }
+            // original image
+            item.o = {
+              src: item.src,
+              w: item.w,
+              h: item.h
+            };
+
+            items.push(item);
+          }
+
+          return items;
+        };
+
+        // find nearest parent element
+        var closest = function closest(el, fn) {
+          return el && (fn(el) ? el : closest(el.parentNode, fn));
+        };
+
+        var onThumbnailsClick = function (e) {
+          e = e || window.event;
+          e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+          var eTarget = e.target || e.srcElement;
+
+          var clickedListItem = closest(eTarget, function (el) {
+            return el.tagName === 'A';
+          });
+
+          if (!clickedListItem) {
+            return;
+          }
+
+          var clickedGallery = clickedListItem.parentNode;
+
+          var childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+          for (var i = 0; i < numChildNodes; i++) {
+            if (childNodes[i].nodeType !== 1) {
+              continue;
+            }
+
+            if (childNodes[i] === clickedListItem) {
+              index = nodeIndex;
+              break;
+            }
+            nodeIndex++;
+          }
+
+          if (index >= 0) {
+            openPhotoSwipe(index, clickedGallery);
+          }
+          return false;
+        };
+
+        var photoswipeParseHash = function () {
+          var hash = window.location.hash.substring(1),
+            params = {};
+
+          if (hash.length < 5) { // pid=1
+            return params;
+          }
+
+          var vars = hash.split('&');
+          for (var i = 0; i < vars.length; i++) {
+            if (!vars[i]) {
+              continue;
+            }
+            var pair = vars[i].split('=');
+            if (pair.length < 2) {
+              continue;
+            }
+            params[pair[0]] = pair[1];
+          }
+
+          if (params.gid) {
+            params.gid = parseInt(params.gid, 10);
+          }
+
+          return params;
+        };
+
+        var openPhotoSwipe = function (index, galleryElement, disableAnimation, fromURL) {
+          var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+          items = parseThumbnailElements(galleryElement);
+
+          // define options (if needed)
+          options = {
+
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function (index) {
+              // See Options->getThumbBoundsFn section of docs for more info
+              var thumbnail = items[index].el.children[0],
+                pageYScroll = window.pageYOffset || document.documentElement
+                .scrollTop,
+                rect = thumbnail.getBoundingClientRect();
+
+              return {
+                x: rect.left,
+                y: rect.top + pageYScroll,
+                w: rect.width
+              };
+            },
+
+            addCaptionHTMLFn: function (item, captionEl, isFake) {
+              if (!item.title) {
+                captionEl.children[0].innerText = '';
+                return false;
+              }
+              captionEl.children[0].innerHTML = item.title +
+                '<br/><small>Photo: ' +
+                item.author + '</small>';
+              return true;
+            }
+
+          };
+
+
+          if (fromURL) {
+            if (options.galleryPIDs) {
+              // parse real index when custom PIDs are used 
+              // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+              for (var j = 0; j < items.length; j++) {
+                if (items[j].pid == index) {
+                  options.index = j;
+                  break;
+                }
+              }
+            } else {
+              options.index = parseInt(index, 10) - 1;
+            }
+          } else {
+            options.index = parseInt(index, 10);
+          }
+
+          // exit if index not found
+          if (isNaN(options.index)) {
+            return;
+          }
+
+
+
+          var radios = document.getElementsByName('gallery-style');
+          for (var i = 0, length = radios.length; i < length; i++) {
+            if (radios[i].checked) {
+              if (radios[i].id == 'radio-all-controls') {
+
+              } else if (radios[i].id == 'radio-minimal-black') {
+                options.mainClass = 'pswp--minimal--dark';
+                options.barsSize = {
+                  top: 0,
+                  bottom: 0
+                };
+                options.captionEl = false;
+                options.fullscreenEl = false;
+                options.shareEl = false;
+                options.bgOpacity = 0.85;
+                options.tapToClose = true;
+                options.tapToToggleControls = false;
+              }
+              break;
+            }
+          }
+
+          if (disableAnimation) {
+            options.showAnimationDuration = 0;
+          }
+
+          // Pass data to PhotoSwipe and initialize it
+          gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+
+          // see: http://photoswipe.com/documentation/responsive-images.html
+          var realViewportWidth,
+            useLargeImages = false,
+            firstResize = true,
+            imageSrcWillChange;
+
+          gallery.listen('beforeResize', function () {
+
+            var dpiRatio = window.devicePixelRatio ? window.devicePixelRatio :
+              1;
+            dpiRatio = Math.min(dpiRatio, 2.5);
+            realViewportWidth = gallery.viewportSize.x * dpiRatio;
+
+
+            if (realViewportWidth >= 1200 || (!gallery.likelyTouchDevice &&
+                realViewportWidth > 800) || screen.width > 1200) {
+              if (!useLargeImages) {
+                useLargeImages = true;
+                imageSrcWillChange = true;
+              }
+
+            } else {
+              if (useLargeImages) {
+                useLargeImages = false;
+                imageSrcWillChange = true;
+              }
+            }
+
+            if (imageSrcWillChange && !firstResize) {
+              gallery.invalidateCurrItems();
+            }
+
+            if (firstResize) {
+              firstResize = false;
+            }
+
+            imageSrcWillChange = false;
+
+          });
+
+          gallery.listen('gettingData', function (index, item) {
+            if (useLargeImages) {
+              item.src = item.o.src;
+              item.w = item.o.w;
+              item.h = item.o.h;
+            } else {
+              item.src = item.m.src;
+              item.w = item.m.w;
+              item.h = item.m.h;
+            }
+          });
+
+          gallery.init();
+        };
+
+        // select all gallery elements
+        var galleryElements = document.querySelectorAll(gallerySelector);
+        for (var i = 0, l = galleryElements.length; i < l; i++) {
+          galleryElements[i].setAttribute('data-pswp-uid', i + 1);
+          galleryElements[i].onclick = onThumbnailsClick;
+        }
+
+        // Parse URL and open gallery if it contains #&pid=3&gid=1
+        var hashData = photoswipeParseHash();
+        if (hashData.pid && hashData.gid) {
+          openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
+        }
+      };
+
+      initPhotoSwipeFromDOM('.demo-gallery');
+
+    })();
+  </script>
+</body>
+
+</html>
