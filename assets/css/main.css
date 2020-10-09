@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "made";
+  font-family: 'Cardo', serif;
   src: url(../fonts/made/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf);
 }
 
@@ -12,6 +12,7 @@
   font-family: "montserrat";
   src: url(../fonts/montserrat/Montserrat-Regular.ttf);
 }
+@import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
 
 
 ::-webkit-scrollbar {
@@ -36,7 +37,7 @@ video {
 }
 
 body {
-
+  font-family: 'Open Sans', sans-serif;
   color: rgb(24 41 52);
   scroll-behavior: smooth !important;
 
@@ -66,7 +67,7 @@ body.offcanvas-expanded {
   overflow: auto !important;
 }
 .title-bold{
-  font-family: "made";
+  font-family: 'Cardo', serif;
   font-weight: bold;
 }
 .item_texto{
@@ -579,12 +580,12 @@ div#galeria:hover img:hover {
 .galeria_name p {
   font-size: 16px;
   letter-spacing: 3px;
-  font-family: "made";
+  font-family: 'Cardo', serif;
   font-weight: bolder;
 }
 
 .titulo-banner_cuadro {
-  font-family: "made";
+  font-family: 'Cardo', serif;
   font-weight: bolder;
   letter-spacing: 2px;
 }
@@ -616,7 +617,7 @@ div#galeria:hover img:hover {
 .main_title-general {
   text-align: center;
   font-size: 40px;
-  font-family: "made";
+  font-family: 'Cardo', serif;
   letter-spacing: 2px;
   color: #182934;
 }
@@ -634,7 +635,7 @@ div#galeria:hover img:hover {
 
 .title-login {
   font-size: 30px;
-  font-family: "made";
+  font-family: 'Cardo', serif;
   letter-spacing: 2px;
   color: #182934;
   padding: 30px 0px;
