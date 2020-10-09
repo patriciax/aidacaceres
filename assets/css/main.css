@@ -114,6 +114,9 @@ body.offcanvas-expanded {
   color: #fff!important;
   border: 0;
 }
+.dropdown-toggle{
+  font-size: 15px;
+}
 
 .btn-custom2 {
  
