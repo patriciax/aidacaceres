@@ -251,7 +251,7 @@ body.offcanvas-expanded {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  color: rgba(97, 108, 107, .7);
+  color: rgb(4 43 58);
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover {
@@ -262,6 +262,7 @@ body.offcanvas-expanded {
 .navbar-expand-md .navbar-nav .nav-link {
   padding-right: 0.9rem;
   cursor: pointer;
+  font-family: 'EB Garamond', serif;
 }
 
 .slick-dotted.slick-slider {
@@ -336,6 +337,9 @@ body.offcanvas-expanded {
   right: 5px;
   bottom: 0;
   color: #fff;
+  
+  font-family: initial;
+
 }
 
 .btn-add span::before {
@@ -344,7 +348,7 @@ body.offcanvas-expanded {
   background: #182934;
   padding: 10px;
   border-radius: 50%;
-  bottom: 0px;
+  bottom: 2px;
   left: -5px;
   z-index: -1;
 }
