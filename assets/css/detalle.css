@@ -69,6 +69,8 @@
     font-size: 14px;
     margin-left: 16px;
     margin-top: 10px;
+    border-bottom: 1px solid #18293412;
+    padding-bottom: 14px;
 }
 .p-per{
     padding: 10px 60px;
@@ -132,4 +134,8 @@
 }
 .atention-item{
     width: 50%;
+}
+.main-top__title{
+    border-bottom: 1px solid #18293412;
+    padding-bottom: 14px;
 }

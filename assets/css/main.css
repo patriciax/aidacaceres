@@ -37,7 +37,8 @@ video {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
   color: rgb(24 41 52);
   scroll-behavior: smooth !important;
 
@@ -106,7 +107,12 @@ body.offcanvas-expanded {
   /*position: fixed;*/
   transition: .6s;
 }
-
+.btn-custom{
+  background: #042b3a;
+  padding: 4px 30px;
+  border-radius: 2px;
+  color: #fff!important;
+}
 .hamburger:hover {
   opacity: 0.7;
 }
