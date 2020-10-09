@@ -810,10 +810,18 @@ a:hover .fa-angle-right {
 }
 
 .titulo-table{
-  background: #1c2f3c;
-  color: #fff;
+  background: #1c2f3c14;
+  color: #042b3a;
   padding: 10px;
   margin-bottom: 10px;
+
+}
+.item_texto span{
+  font-size: 15px;
+    display: flex;
+}
+.item_img img{
+  width: 130px;
 }
 .space  {
   text-align: end;
@@ -826,8 +834,7 @@ a:hover .fa-angle-right {
 }
 
 .item_product{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+display: flex;
 }
 .producto-item{
   border-bottom: 1px solid #1c2f3c24;
