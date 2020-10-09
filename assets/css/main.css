@@ -361,7 +361,7 @@ body.offcanvas-expanded {
 }
 
 .slick-next {
-  right: 60px !important;
+  right: -40px !important;
 }
 
 
@@ -369,7 +369,7 @@ body.offcanvas-expanded {
   content: "\f105";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 24px;
-  color: #ffffff;
+  color: #47545d;
 
   opacity: 1;
   /* background: #ffffff9e; */
@@ -386,7 +386,7 @@ body.offcanvas-expanded {
   content: "\f104";
   color: #909897;
   font-size: 24px;
-  color: #ffffff;
+  color: #47545d;
 
   opacity: 1;
 
@@ -399,22 +399,22 @@ body.offcanvas-expanded {
 }
 
 .slick-prev {
-  left: 15px;
+  left: -70px;
 }
 
 .slick-prev,
 .slick-next {
   top: 40%;
   z-index: 1;
-  opacity: 0;
+
   transition: .6s;
 }
 
-.main-banner__content:hover .slick-prev,
+/*.main-banner__content:hover .slick-prev,
 .main-banner__content:hover .slick-next {
 
   opacity: 1;
-}
+}*/
 
 .modal {
   z-index: 999999;
