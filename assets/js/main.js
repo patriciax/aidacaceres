@@ -38,7 +38,15 @@ $(window).scroll(function () {
 	}
 });
 
+$(function() {
 
+  $('[data-toggle="modal"]').hover(function() {
+    var modalId = $(this).data('target');
+    $(modalId).modal('show');
+
+  });
+
+});
 /*****************banner************** */
 $('.main-banner__content').slick({
     infinite: true,

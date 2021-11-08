@@ -1060,3 +1060,6 @@ display: flex;
   text-align: center;
   justify-content: center;
 }
+.brand-xs{
+  display: none;
+}
